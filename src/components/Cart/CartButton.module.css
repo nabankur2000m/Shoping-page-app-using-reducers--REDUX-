@@ -1,0 +1,47 @@
+.button {
+  background-color: transparent;
+  border: 2px solid #f25f5c;
+  color: #f25f5c;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05rem;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.button:hover,
+.button:active {
+  color: white;
+  background-color: #f25f5c;
+  transform: scale(1.05);
+}
+
+.button span {
+  margin: 0 0.5rem;
+  display: inline-block;
+  transition: transform 0.3s ease;
+}
+
+.button:hover span {
+  transform: translateY(-2px);
+}
+
+.badge {
+  background-color: #f25f5c;
+  border-radius: 30px;
+  padding: 0.5rem 1.5rem;
+  color: #ffffff;
+  font-size: 0.85rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  display: inline-block;
+  cursor: default;
+}
+
+.badge:hover {
+  background-color: lighten(#f25f5c, 10%);
+  transform: scale(1.1);
+}
