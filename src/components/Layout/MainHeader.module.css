@@ -5,7 +5,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background: linear-gradient(to right, #000000, #164242); /* Gradient from silver to black */
+  background: linear-gradient(to right, #000000, #164242); 
 }
 
 .header h1 {
